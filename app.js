@@ -3,6 +3,8 @@ import dotenv from 'dotenv'
 import { connect } from 'mongoose'
 import cors from 'cors'
 import { newsRoutes } from './Routes/newsRoutes.js'
+
+
 dotenv.config()
 
 const app = express();
